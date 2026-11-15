@@ -1,0 +1,1 @@
+{"variants": {"can_summon=false": {"model": "brickify:block/sculk_shrieker"}, "can_summon=true": {"model": "brickify:block/sculk_shrieker_can_summon"}}}

@@ -1,0 +1,1 @@
+{"parent": "brickify:item/furnace_minecart", "textures": {"block_top": "plasticraft/colors/red", "block_front": "plasticraft/misc/tnt_front", "block_back": "plasticraft/misc/tnt_front", "block_side": "plasticraft/misc/tnt_side"}}

@@ -1,0 +1,91 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+repositories {
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"brickify" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+
+	runs {
+		client {
+			vmArg "-Xmx6G"
+			programArgs "--username", "RustyHS"
+			// Dev test harness: only active when started with -PbkHarness
+			if (project.hasProperty('bkHarness')) {
+				vmArg "-Dbk.harness=true"
+				vmArg "-Dbk.world=${project.findProperty('bkWorld') ?: 'bk_test'}"
+				if (project.hasProperty('bkFlat')) {
+					vmArg "-Dbk.flat=true"
+				}
+				if (project.hasProperty('bkHidden')) {
+					vmArg "-Dbk.hidden=true"
+				}
+				if (project.hasProperty('bkHdir')) {
+					vmArg "-Dbk.hdir=${project.findProperty('bkHdir')}"
+				}
+				if (project.hasProperty('bkSeed')) {
+					vmArg "-Dbk.seed=${project.findProperty('bkSeed')}"
+				}
+				programArgs "--width", "${project.findProperty('bkWidth') ?: '1280'}", "--height", "${project.findProperty('bkHeight') ?: '720'}"
+			}
+		}
+	}
+}
+
+configurations {
+	prodMods { transitive = false }
+}
+
+dependencies {
+	prodMods "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	// other mods only for trying things in the dev client (e.g. player animations), never shipped
+	runtimeOnly fileTree(dir: ".tools/devmods", include: "*.jar")
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = "UTF-8"
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+base {
+	archivesName = "brickify"
+}
+
+// Release check: starts the real game with only the built jar + Fabric API (no dev resource pack)
+tasks.register("prodClient", net.fabricmc.loom.task.prod.ClientProductionRunTask) {
+	dependsOn tasks.named("jar")
+	mods.from(configurations.prodMods)
+	mods.from(tasks.named("jar"))
+	runDir = file("run_prod")
+	jvmArgs.add("-Xmx6G")
+	jvmArgs.add("-Dbk.harness=true")
+	jvmArgs.add("-Dbk.world=${project.findProperty('bkWorld') ?: 'showcase_a'}")
+	jvmArgs.add("-Dbk.hidden=true")
+	programArgs.addAll("--width", "1280", "--height", "720", "--username", "RustyHS")
+}

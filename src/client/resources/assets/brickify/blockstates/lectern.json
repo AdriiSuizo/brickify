@@ -1,0 +1,1 @@
+{"variants": {"facing=east": {"model": "brickify:block/lectern", "y": 90}, "facing=north": {"model": "brickify:block/lectern"}, "facing=south": {"model": "brickify:block/lectern", "y": 180}, "facing=west": {"model": "brickify:block/lectern", "y": 270}}}

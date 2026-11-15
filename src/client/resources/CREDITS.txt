@@ -1,0 +1,6 @@
+Brickify by RustyHS (youtube.com/@RustyHS)
+
+Brick block models and textures are based on Plasticraft by Inferno31415
+(https://modrinth.com/resourcepack/plasticraft), released under CC0-1.0.
+
+Not affiliated with or endorsed by the LEGO Group.

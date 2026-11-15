@@ -1,0 +1,1 @@
+{"credit": "Made by Inferno31415", "parent": "brickify:item/generated", "textures": {"layer0": "item/chicken"}, "display": {"thirdperson_righthand": {"rotation": [45, 90, 0], "translation": [0, 2, 1.25]}, "thirdperson_lefthand": {"rotation": [45, -90, 0], "translation": [0, 2, 1.25]}}}

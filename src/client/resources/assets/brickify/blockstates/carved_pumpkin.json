@@ -1,0 +1,1 @@
+{"variants": {"facing=east": {"model": "brickify:block/carved_pumpkin", "y": 90}, "facing=north": {"model": "brickify:block/carved_pumpkin"}, "facing=south": {"model": "brickify:block/carved_pumpkin", "y": 180}, "facing=west": {"model": "brickify:block/carved_pumpkin", "y": 270}}}

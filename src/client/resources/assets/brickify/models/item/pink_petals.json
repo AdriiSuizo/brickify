@@ -1,0 +1,1 @@
+{"parent": "brickify:item/.master/flower_4_petals", "textures": {"particle": "plasticraft/flowers/pink", "flower": "plasticraft/flowers/pink", "circle": "plasticraft/circles/pink", "ring": "plasticraft/rings/pink", "color": "plasticraft/colors/pink"}, "display": {"gui": {"rotation": [30, 225, 0], "translation": [0, 8, 0], "scale": [1.4, 1.4, 1.4]}}}

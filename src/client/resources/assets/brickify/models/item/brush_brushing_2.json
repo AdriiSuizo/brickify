@@ -1,0 +1,1 @@
+{"parent": "brickify:item/brush", "display": {"thirdperson_righthand": {"rotation": [0, 0, 40], "translation": [0, 3, 1.75], "scale": [0.75, 0.75, 0.75]}, "thirdperson_lefthand": {"rotation": [0, 0, 40], "translation": [0, 3, 1.75], "scale": [0.75, 0.75, 0.75]}}}

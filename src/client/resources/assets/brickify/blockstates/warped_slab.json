@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/warped_slab"}, "type=double,waterlogged=false": {"model": "brickify:block/warped_slab_double", "x": 90}, "type=double,waterlogged=true": {"model": "brickify:block/warped_planks", "y": 90}, "type=top": {"model": "brickify:block/warped_slab_top"}}}

@@ -1,0 +1,1 @@
+{"variants": {"mode=corner": {"model": "brickify:block/structure_block_corner"}, "mode=data": {"model": "brickify:block/structure_block_data"}, "mode=load": {"model": "brickify:block/structure_block_load"}, "mode=save": {"model": "brickify:block/structure_block_save"}}}

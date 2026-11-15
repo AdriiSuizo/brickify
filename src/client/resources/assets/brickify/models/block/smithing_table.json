@@ -1,0 +1,1 @@
+{"parent": "brickify:block/.master/block_nw_mirrored_with_stud_model", "textures": {"bottom_outside": "plasticraft/colors/dark_brown", "bottom": "plasticraft/bottoms/dark_brown", "top": "plasticraft/colors/black", "side": "plasticraft/misc/smithing_table_side", "front": "plasticraft/misc/smithing_table_front", "back": "#front", "particle": "#top"}}

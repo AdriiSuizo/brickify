@@ -1,0 +1,1 @@
+{"variants": {"snowy=false": [{"model": "brickify:block/podzol"}, {"model": "brickify:block/podzol", "y": 90}, {"model": "brickify:block/podzol", "y": 180}, {"model": "brickify:block/podzol", "y": 270}], "snowy=true": {"model": "brickify:block/grass_block_snow"}}}

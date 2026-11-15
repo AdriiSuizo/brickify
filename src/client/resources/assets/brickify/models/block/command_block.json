@@ -1,0 +1,1 @@
+{"parent": "brickify:block/template_command_block", "textures": {"back": "brickify:block/command_block_back", "front": "brickify:block/command_block_front", "side": "brickify:block/command_block_side"}}

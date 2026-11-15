@@ -1,0 +1,1 @@
+{"parent": "brickify:item/.master/1x1_brick", "textures": {"color": "plasticraft/colors/green", "circle": "plasticraft/circles/green", "bottom": "plasticraft/bottoms/green", "side": "plasticraft/sides/green", "print": "plasticraft/spawn_eggs/creeper"}, "gui_light": "front", "display": {"gui": {"rotation": [5, -180, 0], "translation": [0, 1, 0], "scale": [0.9, 0.9, 0.9]}}}

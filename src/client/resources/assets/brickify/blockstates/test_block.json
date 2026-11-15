@@ -1,0 +1,1 @@
+{"variants": {"mode=accept": {"model": "brickify:block/test_block_accept"}, "mode=fail": {"model": "brickify:block/test_block_fail"}, "mode=log": {"model": "brickify:block/test_block_log"}, "mode=start": {"model": "brickify:block/test_block_start"}}}

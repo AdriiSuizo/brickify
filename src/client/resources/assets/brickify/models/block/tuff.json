@@ -1,0 +1,1 @@
+{"parent": "brickify:block/cube", "textures": {"up": "plasticraft/misc/tuff_top", "down": "plasticraft/colors/dark_gray", "east": "plasticraft/misc/tuff_side", "west": "plasticraft/misc/tuff_side", "south": "plasticraft/misc/tuff_front", "north": "plasticraft/misc/tuff_front", "particle": "plasticraft/misc/tuff_front"}}

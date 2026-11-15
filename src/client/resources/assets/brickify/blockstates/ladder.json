@@ -1,0 +1,1 @@
+{"variants": {"facing=east": {"model": "brickify:block/ladder_ew", "y": 90}, "facing=north": {"model": "brickify:block/ladder_ns"}, "facing=south": {"model": "brickify:block/ladder_ns", "y": 180}, "facing=west": {"model": "brickify:block/ladder_ew", "y": 270}}}

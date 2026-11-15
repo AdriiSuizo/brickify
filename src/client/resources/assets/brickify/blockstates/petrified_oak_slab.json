@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/petrified_oak_slab"}, "type=double,waterlogged=false": {"model": "brickify:block/petrified_oak_planks"}, "type=double,waterlogged=true": {"model": "brickify:block/petrified_oak_planks", "y": 90}, "type=top": {"model": "brickify:block/petrified_oak_slab_top"}}}

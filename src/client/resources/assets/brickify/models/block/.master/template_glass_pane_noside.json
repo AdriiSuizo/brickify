@@ -1,0 +1,1 @@
+{"credit": "Made by Inferno31415", "ambientocclusion": false, "textures": {"particle": "#pane", "pane": "plasticraft/glass/glass_side"}, "elements": [{"from": [4, 0, 4], "to": [12, 16, 12], "faces": {"north": {"uv": [3, 0, 5, 16], "texture": "#pane"}}}]}

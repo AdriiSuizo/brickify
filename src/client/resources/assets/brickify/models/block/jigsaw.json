@@ -1,0 +1,1 @@
+{"parent": "brickify:block/cube_directional", "textures": {"down": "brickify:block/jigsaw_side", "east": "brickify:block/jigsaw_side", "north": "brickify:block/jigsaw_top", "particle": "brickify:block/jigsaw_top", "south": "brickify:block/jigsaw_bottom", "up": "brickify:block/jigsaw_lock", "west": "brickify:block/jigsaw_side"}}

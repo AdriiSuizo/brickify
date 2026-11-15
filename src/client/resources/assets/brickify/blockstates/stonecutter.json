@@ -1,0 +1,1 @@
+{"variants": {"facing=east": {"model": "brickify:block/stonecutter", "y": 90}, "facing=north": {"model": "brickify:block/stonecutter"}, "facing=south": {"model": "brickify:block/stonecutter", "y": 180}, "facing=west": {"model": "brickify:block/stonecutter", "y": 270}}}

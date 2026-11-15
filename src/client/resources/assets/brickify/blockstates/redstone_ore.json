@@ -1,0 +1,1 @@
+{"variants": {"lit=false": {"model": "brickify:block/redstone_ore"}, "lit=true": {"model": "brickify:block/redstone_ore_lit"}}}

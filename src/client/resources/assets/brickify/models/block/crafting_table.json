@@ -1,0 +1,1 @@
+{"parent": "brickify:block/.master/block_nw_mirrored_with_anti_stud_model", "textures": {"particle": "#front", "top": "plasticraft/misc/crafting_table_top", "side": "plasticraft/misc/crafting_table_side", "front": "plasticraft/misc/crafting_table_front", "back": "#front", "bottom_outside": "plasticraft/colors/medium_nougat", "bottom": "plasticraft/bottoms/medium_nougat"}}

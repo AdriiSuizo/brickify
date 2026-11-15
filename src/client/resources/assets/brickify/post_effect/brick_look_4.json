@@ -1,0 +1,190 @@
+{
+  "targets": {
+    "ao": {},
+    "ao_blur": {},
+    "swap": {}
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "brickify:post/brick_ao",
+      "inputs": [
+        {
+          "sampler_name": "Depth",
+          "target": "minecraft:main",
+          "use_depth_buffer": true
+        }
+      ],
+      "output": "ao",
+      "uniforms": {
+        "AoConfig": [
+          {
+            "name": "AoRadius",
+            "type": "float",
+            "value": 0.28
+          },
+          {
+            "name": "AoRange",
+            "type": "float",
+            "value": 0.75
+          },
+          {
+            "name": "EdgeStrength",
+            "type": "float",
+            "value": 0.7
+          },
+          {
+            "name": "Pad",
+            "type": "float",
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "brickify:post/brick_ao_blur",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "ao"
+        },
+        {
+          "sampler_name": "Depth",
+          "target": "minecraft:main",
+          "use_depth_buffer": true
+        }
+      ],
+      "output": "ao_blur",
+      "uniforms": {
+        "AoBlurConfig": [
+          {
+            "name": "BlurDir",
+            "type": "vec2",
+            "value": [
+              1.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "brickify:post/brick_ao_blur",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "ao_blur"
+        },
+        {
+          "sampler_name": "Depth",
+          "target": "minecraft:main",
+          "use_depth_buffer": true
+        }
+      ],
+      "output": "ao",
+      "uniforms": {
+        "AoBlurConfig": [
+          {
+            "name": "BlurDir",
+            "type": "vec2",
+            "value": [
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "brickify:post/brick_look",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:main"
+        },
+        {
+          "sampler_name": "Ao",
+          "target": "ao"
+        },
+        {
+          "sampler_name": "Depth",
+          "target": "minecraft:main",
+          "use_depth_buffer": true
+        }
+      ],
+      "output": "swap",
+      "uniforms": {
+        "LookConfig": [
+          {
+            "name": "Strength",
+            "type": "float",
+            "value": 1.0
+          },
+          {
+            "name": "AoStrength",
+            "type": "float",
+            "value": 0.8
+          },
+          {
+            "name": "Sheen",
+            "type": "float",
+            "value": 0.5
+          },
+          {
+            "name": "Saturation",
+            "type": "float",
+            "value": 1.16
+          },
+          {
+            "name": "Contrast",
+            "type": "float",
+            "value": 1.06
+          },
+          {
+            "name": "Warmth",
+            "type": "float",
+            "value": 0.035
+          },
+          {
+            "name": "Vignette",
+            "type": "float",
+            "value": 0.25
+          },
+          {
+            "name": "Pad",
+            "type": "float",
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap"
+        }
+      ],
+      "output": "minecraft:main",
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"multipart": [{"apply": {"model": "brickify:block/scaffolding_stable"}}, {"apply": {"model": "brickify:block/scaffolding_unstable"}, "when": {"bottom": "true"}}]}

@@ -1,0 +1,45 @@
+{
+	"required": true,
+	"package": "dev.rusty.brickify.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"BlockItemMixin",
+		"BlockDisplayRendererMixin",
+		"ClientInputAccessor",
+		"KeyboardInputMixin",
+		"EditorLevelRendererMixin",
+		"DebugRendererMixin",
+		"RenderSectionRegionMixin",
+		"FogRendererMixin",
+		"ServerExplosionMixin",
+		"HudMixin",
+		"EntityMixin",
+		"LivingEntityMixin",
+		"RenderTypesMixin",
+		"EntityRenderDispatcherMixin",
+		"EntityRendererMixin",
+		"EntityRenderStateMixin",
+		"RenderLayerMixin",
+		"LivingEntityRendererMixin",
+		"ModelFeatureRendererMixin",
+		"CameraMixin",
+		"FluidRendererMixin",
+		"GameRendererMixin",
+		"LevelExtractorMixin",
+		"SoundListenerMixin",
+		"EditorKeysMixin",
+		"AutoAimMixin",
+		"BushCollisionMixin",
+		"TntPlaceMixin",
+		"NpcTalkMixin",
+		"dev.HarnessFrameMixin",
+		"dev.HarnessMouseMixin",
+		"dev.HarnessWindowMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

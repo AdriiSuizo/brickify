@@ -1,0 +1,1 @@
+{"parent": "brickify:block/cube", "textures": {"up": "plasticraft/colors/dark_brown", "down": "#up", "east": "plasticraft/logs/warped_stem_east", "north": "plasticraft/logs/warped_stem_north", "particle": "#east", "south": "plasticraft/logs/warped_stem_south", "west": "plasticraft/logs/warped_stem_west"}}

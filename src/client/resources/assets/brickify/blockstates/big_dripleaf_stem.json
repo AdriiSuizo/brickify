@@ -1,0 +1,1 @@
+{"variants": {"facing=east": {"model": "brickify:block/big_dripleaf_stem", "y": 90}, "facing=north": {"model": "brickify:block/big_dripleaf_stem"}, "facing=south": {"model": "brickify:block/big_dripleaf_stem", "y": 180}, "facing=west": {"model": "brickify:block/big_dripleaf_stem", "y": 270}}}

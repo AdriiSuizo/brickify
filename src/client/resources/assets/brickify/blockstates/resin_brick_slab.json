@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/resin_brick_slab"}, "type=double,waterlogged=false": {"model": "brickify:block/resin_brick_slab_double", "x": 90}, "type=double,waterlogged=true": {"model": "brickify:block/resin_bricks", "y": 90}, "type=top": {"model": "brickify:block/resin_brick_slab_top"}}}

@@ -1,0 +1,1 @@
+{"parent": "brickify:block/.master/block_nw_mirrored_with_stud", "textures": {"top": "plasticraft/colors/magenta", "side": "plasticraft/sides/magenta", "front": "#side", "back": "#side", "bottom": "plasticraft/bottoms/magenta", "particle": "#side"}}

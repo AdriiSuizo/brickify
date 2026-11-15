@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/polished_tuff_slab"}, "type=double": [{"model": "brickify:block/polished_tuff_z1"}, {"model": "brickify:block/polished_tuff_z2"}, {"model": "brickify:block/polished_tuff_z3"}, {"model": "brickify:block/polished_tuff_z4"}], "type=top": {"model": "brickify:block/polished_tuff_slab_top"}}}

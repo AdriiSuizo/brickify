@@ -1,0 +1,1 @@
+{"credit": "Made by Inferno31415", "parent": "brickify:item/.master/1x1_tile", "textures": {"texture": "plasticraft/colors/dark_blue", "print": "plasticraft/misc/end_portal_frame_eye"}, "display": {"ground": {"rotation": [90, 0, 0], "translation": [0, 0, 6.4]}}}

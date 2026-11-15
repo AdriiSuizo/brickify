@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/bamboo_slab"}, "type=double,waterlogged=false": {"model": "brickify:block/bamboo_slab_double", "x": 90}, "type=double,waterlogged=true": {"model": "brickify:block/bamboo_planks", "y": 90}, "type=top": {"model": "brickify:block/bamboo_slab_top"}}}

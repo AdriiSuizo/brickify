@@ -1,0 +1,1 @@
+{"parent": "brickify:item/villager_spawn_egg", "textures": {"bottom_plate": "plasticraft/colors/dark_azure", "particle": "plasticraft/colors/green", "top": "plasticraft/colors/green", "print": "plasticraft/spawn_eggs/zombie", "bottom": "plasticraft/bottoms/dark_azure"}}

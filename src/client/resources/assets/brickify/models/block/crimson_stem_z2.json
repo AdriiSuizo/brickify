@@ -1,0 +1,1 @@
+{"parent": "brickify:block/birch_log_z2", "textures": {"particle": "#east", "top": "plasticraft/colors/magenta", "north": "plasticraft/logs/crimson_stem_east", "east": "plasticraft/logs/crimson_stem_south", "west": "plasticraft/logs/crimson_stem_north", "south": "plasticraft/logs/crimson_stem_west", "top_side": "plasticraft/sides_outlined/magenta"}}

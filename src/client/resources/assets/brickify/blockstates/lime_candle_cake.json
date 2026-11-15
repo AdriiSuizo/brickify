@@ -1,0 +1,1 @@
+{"multipart": [{"apply": {"model": "brickify:block/cake"}}, {"apply": {"model": "brickify:block/cake_candle_lime"}, "when": {"lit": "false"}}, {"apply": {"model": "brickify:block/cake_candle_lime_lit"}, "when": {"lit": "true"}}]}

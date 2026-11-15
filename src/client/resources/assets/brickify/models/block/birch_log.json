@@ -1,0 +1,1 @@
+{"parent": "brickify:block/.master/log_model", "textures": {"top": "plasticraft/colors/tan", "top_side": "plasticraft/sides_outlined/tan", "east": "plasticraft/logs/birch_log_east", "north": "plasticraft/logs/birch_log_north", "south": "plasticraft/sides/white", "west": "plasticraft/sides/white", "bottom": "plasticraft/bottoms/tan", "particle": "#east"}}

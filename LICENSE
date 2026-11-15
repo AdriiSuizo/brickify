@@ -1,0 +1,40 @@
+Brickify – Source Available License
+
+Copyright (c) 2026 RustyHS (github.com/moritzfh). All rights reserved.
+
+The source code of Brickify is public so people can read it, learn from it and see how
+the mod is made. Being public does NOT make Brickify open source, and it does NOT give
+anyone the right to distribute the mod or its code.
+
+You MAY:
+
+  - read and study the source code
+  - build the mod from this source for your own personal use
+  - fork this repository on GitHub to suggest changes through issues and pull requests
+    (by sending a contribution you agree that it may be used in Brickify under this license)
+  - show the mod in videos, streams and screenshots
+  - put Brickify in a modpack, but only if the modpack downloads it from an official
+    source (the releases page of this repository or the official Brickify pages of
+    RustyHS on Modrinth or CurseForge) and does not contain a copy of the jar file
+
+You may NOT, unless RustyHS has given you written permission:
+
+  - upload, mirror or redistribute Brickify, its jar files or this source code, original
+    or changed, on any website, mod platform, launcher, store or file host
+  - release a changed version, a port or a fork of Brickify, or a mod that is mostly
+    based on its code
+  - sell Brickify or use it commercially (videos and streams are fine)
+  - remove or change this license or the credits
+
+Third-party content: the brick block models and textures are based on Plasticraft by
+Inferno31415 (https://modrinth.com/resourcepack/plasticraft), released under CC0-1.0.
+The original Plasticraft files stay under CC0-1.0; get them from the Plasticraft page.
+
+Brickify is a fan project and is not affiliated with, endorsed by or connected to the
+LEGO Group, Mojang or Microsoft. LEGO is a trademark of the LEGO Group.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+THE USE OF IT.

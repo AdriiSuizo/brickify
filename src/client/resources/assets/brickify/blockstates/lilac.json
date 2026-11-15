@@ -1,0 +1,1 @@
+{"variants": {"half=lower": [{"model": "brickify:block/lilac"}, {"model": "brickify:block/lilac", "y": 90}, {"model": "brickify:block/lilac", "y": 180}, {"model": "brickify:block/lilac", "y": 270}], "half=upper": {"model": "brickify:block/blank"}}}

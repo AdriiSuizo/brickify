@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/mossy_stone_brick_slab"}, "type=double,waterlogged=false": {"model": "brickify:block/mossy_stone_brick_slab_double", "x": 90}, "type=double,waterlogged=true": {"model": "brickify:block/mossy_stone_bricks_rotated"}, "type=top": {"model": "brickify:block/mossy_stone_brick_slab_top"}}}

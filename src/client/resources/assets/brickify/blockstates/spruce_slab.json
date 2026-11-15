@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/spruce_slab"}, "type=double,waterlogged=false": {"model": "brickify:block/spruce_slab_double", "x": 90}, "type=double,waterlogged=true": {"model": "brickify:block/spruce_planks", "y": 90}, "type=top": {"model": "brickify:block/spruce_slab_top"}}}

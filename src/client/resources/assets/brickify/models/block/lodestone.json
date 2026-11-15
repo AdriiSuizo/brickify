@@ -1,0 +1,1 @@
+{"parent": "brickify:block/.master/block_nw_mirrored_with_stud_model", "textures": {"bottom": "plasticraft/bottoms/light_bluish_gray", "bottom_outside": "#top", "top": "plasticraft/colors/light_bluish_gray", "side": "plasticraft/misc/lodestone_side", "front": "plasticraft/misc/lodestone_front", "back": "#front", "particle": "#front"}}

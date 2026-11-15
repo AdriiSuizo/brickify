@@ -64,12 +64,20 @@ Keys can be changed under Options → Controls.
 - ▶️ YouTube: [@RustyHS](https://www.youtube.com/@RustyHS)
 - ☕ Support my mods: [ko-fi.com/rustyhs](https://ko-fi.com/rustyhs)
 
+## Source code
+
+The full source is in this repository, so you can see how Brickify works.
+
+To build it yourself you need Java 25: run `gradlew build`, and the jar ends up in `build/libs`.
+
+The source is public, but Brickify is **not** open source: please don't reupload the mod or release changed versions of it. Read the [license](LICENSE) for what you can and can't do. Ideas and fixes are welcome as issues or pull requests.
+
 ## Credits
 
 The brick block models and textures are based on [Plasticraft](https://modrinth.com/resourcepack/plasticraft) by Inferno31415 (CC0-1.0).
 
-## Disclaimer
+## License
+
+Source available, all rights reserved. See [LICENSE](LICENSE).
 
 Brickify is a fan project and is not affiliated with, endorsed by or connected to the LEGO Group or Mojang. LEGO® is a trademark of the LEGO Group.
-
-All rights reserved.

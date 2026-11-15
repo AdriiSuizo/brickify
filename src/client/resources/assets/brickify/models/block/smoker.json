@@ -1,0 +1,1 @@
+{"parent": "brickify:block/furnace", "textures": {"front": "plasticraft/misc/smoker_front", "side": "plasticraft/misc/smoker_side", "top": "plasticraft/colors/dark_bluish_gray", "bottom": "plasticraft/bottoms/medium_nougat", "bottom_outside": "#top", "back": "plasticraft/misc/smoker_back"}}

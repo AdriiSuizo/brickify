@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/deepslate_tile_slab"}, "type=double,waterlogged=false": {"model": "brickify:block/deepslate_tile_slab_double", "x": 90}, "type=double,waterlogged=true": {"model": "brickify:block/deepslate_tiles", "y": 90}, "type=top": {"model": "brickify:block/deepslate_tile_slab_top"}}}

@@ -1,0 +1,1 @@
+{"parent": "brickify:block/cube", "textures": {"up": "plasticraft/misc/andesite", "down": "plasticraft/colors/light_bluish_gray", "east": "plasticraft/misc/andesite_side", "west": "plasticraft/misc/andesite_side", "south": "plasticraft/misc/andesite_front", "north": "plasticraft/misc/andesite_front", "particle": "plasticraft/misc/andesite_front"}}

@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/stone_slab"}, "type=double": [{"model": "brickify:block/stone_z1"}, {"model": "brickify:block/stone_z2"}, {"model": "brickify:block/stone_z3"}, {"model": "brickify:block/stone_z4"}], "type=top": {"model": "brickify:block/stone_slab_top"}}}

@@ -1,0 +1,1 @@
+{"credit": "Made by Inferno31415", "ambientocclusion": false, "textures": {"particle": "#edge", "edge": "plasticraft/glass/lime_top"}, "elements": [{"from": [4, 0, 4], "to": [12, 16, 12], "faces": {"up": {"uv": [2, 2, 6, 6], "texture": "#edge"}, "down": {"uv": [2, 2, 6, 6], "texture": "#edge"}}}]}

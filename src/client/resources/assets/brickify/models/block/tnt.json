@@ -1,0 +1,1 @@
+{"parent": "brickify:block/.master/block_nw_mirrored_with_stud_model", "textures": {"top": "plasticraft/colors/red", "side": "plasticraft/misc/tnt_side", "front": "plasticraft/misc/tnt_front", "bottom": "plasticraft/bottoms/red", "bottom_outside": "plasticraft/colors/red", "back": "#front"}}

@@ -1,0 +1,1 @@
+{"parent": "brickify:block/.master/spawner_template", "textures": {"lights": "plasticraft/colors/dark_bluish_gray", "lights_circle": "plasticraft/circles/dark_bluish_gray", "middle": "plasticraft/colors/black", "middle_circle": "plasticraft/circles/black", "closed": "plasticraft/colors/black", "open": "plasticraft/blank"}}

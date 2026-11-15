@@ -1,0 +1,1 @@
+{"variants": {"type=bottom": {"model": "brickify:block/acacia_slab"}, "type=double,waterlogged=false": {"model": "brickify:block/acacia_slab_double", "x": 90}, "type=double,waterlogged=true": {"model": "brickify:block/acacia_planks", "y": 90}, "type=top": {"model": "brickify:block/acacia_slab_top"}}}

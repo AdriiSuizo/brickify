@@ -1,0 +1,1 @@
+{"variants": {"facing=east": {"model": "brickify:block/oak_wall_hanging_sign", "y": 270}, "facing=north": {"model": "brickify:block/oak_wall_hanging_sign", "y": 180}, "facing=south": {"model": "brickify:block/oak_wall_hanging_sign"}, "facing=west": {"model": "brickify:block/oak_wall_hanging_sign", "y": 90}}}

@@ -1,0 +1,18 @@
+{
+  "key.category.brickify.main": "Brickify",
+  "key.brickify.build": "Zusammenbauen (halten: alles)",
+  "key.brickify.toggle": "Welt in Klemmbausteine verwandeln",
+  "subtitles.brickify.click": "Stein klickt ein",
+  "hint.brickify.build": "[%s] Zusammenbauen · halten: alles",
+  "key.brickify.physics": "Physik: aus / normal / streng",
+  "physics.brickify.mode": "Physik: %s",
+  "physics.brickify.off": "aus (nichts stürzt von selbst ein)",
+  "physics.brickify.normal": "normal (fällt, wenn nichts mehr hält)",
+  "physics.brickify.strict": "streng (lange Überhänge brechen auch ab)",
+  "key.brickify.anim": "Animations-Mod wechseln (Test)",
+  "key.brickify.editor": "Level-Editor: Bauen / Spielen",
+  "key.brickify.editor_view": "Level-Editor: Diorama",
+  "key.brickify.camera": "Kamera: fest / hinter der Figur",
+  "camera.brickify.fixed": "Kamera: fest (wie in den Klötzchen-Spielen)",
+  "camera.brickify.behind": "Kamera: hinter der Figur"
+}

@@ -1,0 +1,66 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "entity/conduit",
+            "prefix": "entity/conduit/"
+        },
+        {
+            "type": "single",
+            "resource": "entity/bell/bell_body"
+        },
+        {
+            "type": "directory",
+            "source": "plasticraft",
+            "prefix": "plasticraft/"
+        },
+        {
+            "type": "single",
+            "resource": "entity/enchanting_table_book"
+        },
+		{
+            "type": "directory",
+            "source": "entity/boat",
+            "prefix": "entity/boat/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/signs",
+            "prefix": "entity/signs/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/chest",
+            "prefix": "entity/chest/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/chest_boat",
+            "prefix": "entity/chest_boat/"
+        },
+		{
+            "type": "directory",
+            "source": "entity/fish",
+            "prefix": "entity/fish/"
+        },
+		{
+            "type": "directory",
+            "source": "entity/decorated_pot",
+            "prefix": "entity/decorated_pot/"
+        },
+        {
+            "type": "single",
+            "resource": "entity/minecart"
+        },
+		{
+            "type": "directory",
+            "source": "trims",
+            "prefix": "trims/"
+        },
+		{
+            "type": "directory",
+            "source": "entity/bee",
+            "prefix": "entity/bee/"
+        }
+    ]
+}

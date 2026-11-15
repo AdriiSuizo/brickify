@@ -1,0 +1,1 @@
+{"variants": {"facing=east": {"model": "brickify:block/dead_brain_coral_wall_fan", "y": 90}, "facing=north": {"model": "brickify:block/dead_brain_coral_wall_fan"}, "facing=south": {"model": "brickify:block/dead_brain_coral_wall_fan", "y": 180}, "facing=west": {"model": "brickify:block/dead_brain_coral_wall_fan", "y": 270}}}

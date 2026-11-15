@@ -1,0 +1,18 @@
+{
+  "key.category.brickify.main": "Brickify",
+  "key.brickify.build": "Build (hold: everything)",
+  "key.brickify.toggle": "Turn the world into bricks",
+  "subtitles.brickify.click": "Brick clicks into place",
+  "hint.brickify.build": "[%s] Build · hold: everything",
+  "key.brickify.physics": "Physics: off / normal / strict",
+  "physics.brickify.mode": "Physics: %s",
+  "physics.brickify.off": "off (nothing comes down by itself)",
+  "physics.brickify.normal": "normal (falls when nothing holds it any more)",
+  "physics.brickify.strict": "strict (long overhangs break off too)",
+  "key.brickify.anim": "Switch animation mod (test)",
+  "key.brickify.editor": "Level editor: build / play",
+  "key.brickify.editor_view": "Level editor: diorama view",
+  "key.brickify.camera": "Camera: fixed / behind the figure",
+  "camera.brickify.fixed": "Camera: fixed (like the brick games)",
+  "camera.brickify.behind": "Camera: behind the figure"
+}

@@ -1,0 +1,31 @@
+{
+  "click": {
+    "sounds": [
+      {
+        "name": "brickify:click1"
+      },
+      {
+        "name": "brickify:click2"
+      },
+      {
+        "name": "brickify:click3"
+      },
+      {
+        "name": "brickify:click4"
+      },
+      {
+        "name": "brickify:click5"
+      },
+      {
+        "name": "brickify:click6"
+      },
+      {
+        "name": "brickify:click7"
+      },
+      {
+        "name": "brickify:click8"
+      }
+    ],
+    "subtitle": "subtitles.brickify.click"
+  }
+}

@@ -1,0 +1,1 @@
+{"parent": "brickify:block/cube", "textures": {"up": "#top", "down": "#top", "north": "#front", "south": "#front", "east": "#side", "west": "#side", "particle": "#front"}}

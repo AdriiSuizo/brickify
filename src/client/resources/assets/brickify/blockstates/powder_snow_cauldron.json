@@ -1,0 +1,1 @@
+{"multipart": [{"apply": {"model": "brickify:block/cauldron"}}, {"apply": {"model": "brickify:block/powder_snow_cauldron_level1"}, "when": {"level": "1"}}, {"apply": {"model": "brickify:block/powder_snow_cauldron_level2"}, "when": {"level": "2"}}, {"apply": {"model": "brickify:block/powder_snow_cauldron_full"}, "when": {"level": "3"}}]}

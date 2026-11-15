@@ -1,0 +1,4 @@
+just color name - all outlines
+color1 - bottom outline
+color2 - middle outline
+color3 - top outline

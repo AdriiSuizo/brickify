@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "brickify",
+	"version": "${version}",
+	"name": "Brickify",
+	"description": "Press B and the world clicks together into toy bricks around you. Mobs fall apart into pieces, houses blow up into bricks and snap back together with R. Brick look based on Plasticraft by Inferno31415 (CC0).",
+	"authors": [
+		"RustyHS"
+	],
+	"contributors": [
+		"Inferno31415 (Plasticraft textures and models, CC0)"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/@RustyHS"
+	},
+	"icon": "assets/brickify/icon.png",
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.rusty.brickify.Brickify"
+		],
+		"client": [
+			"dev.rusty.brickify.client.BrickifyClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "brickify.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

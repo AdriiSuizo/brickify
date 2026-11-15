@@ -1,0 +1,1 @@
+{"variants": {"lit=false": {"model": "brickify:block/redstone_lamp"}, "lit=true": {"model": "brickify:block/redstone_lamp_on"}}}
